@@ -9,7 +9,7 @@ Convolutional Neural Networks (CNNs) can be used to solve the multiclass classif
 
 The solution consists of three steps.
 - To begin, we can use existing algorithms to recognise human photos, such as OpenCV's implementation of Haar feature-based cascade classifiers.
-- Second, we'll use a VGG16 model that has already been trained to recognise dog images.
+- Second, we'll use a VGG19 model that has already been trained to recognise dog images.
 - Finally, after determining whether the image is dog or human, we can send it to a CNN model, which will analyse it and select a breed from a list of 133 breeds that best matches the image.
 
 
