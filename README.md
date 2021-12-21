@@ -168,10 +168,15 @@ We can see from the two photographs above that dog breed pairs are frequently si
 
 
 ![png](images/1.png)
+
 ![png](images/2.png)
+
 ![png](images/3.png)
+
 ![png](images/4.png)
+
 ![png](images/5.png)
+
 ![png](images/6.png)
 
 
