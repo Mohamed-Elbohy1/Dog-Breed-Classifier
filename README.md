@@ -166,6 +166,16 @@ We can see from the two photographs above that dog breed pairs are frequently si
 8. If you try to do anything else, you'll get an error message.
 
 
+
+![png](images/1.jpg)
+![png](images/2.jpg)
+![png](images/3.jpg)
+![png](images/4.jpg)
+![png](images/5.jpg)
+![png](images/6.jpg)
+
+
+
 ## Improvement
 Making the human face detector more robust so that it can detect humans even when their faces aren't visible is one part of the implementation we can improve.
 To detect humans, we can utilise a pre-trained facenet model or other open cv face detectors.
