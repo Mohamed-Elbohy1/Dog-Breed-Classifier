@@ -45,5 +45,3 @@ We break the notebook into separate steps. Feel free to use the links below to n
 - When compared to CNN built from the ground up, the model performed admirably. After only 20 epochs, the model achieved very good percent accuracy.
 
 
-
-
