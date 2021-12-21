@@ -139,15 +139,15 @@ We can see from the two photographs above that dog breed pairs are frequently si
 
 ### Test on human image
 
-![png](images/sample_human_2.png')
+![png](images/sample_human_2.png)
 
 ![png](images/sample_human_output.png)
 
 ### Test on dog image
 
-![png](images/Curly-coated_retriever_03896.jpg')
+![png](images/Curly-coated_retriever_03896.jpg)
 
-![png](images/Labrador_retriever_06449.jpg')
+![png](images/Labrador_retriever_06449.jpg)
 
 
 # Conclusion <a name="conclusion"></a>
