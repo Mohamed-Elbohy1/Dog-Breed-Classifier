@@ -1,5 +1,9 @@
 # Dog-Breed-Classifier
 
+
+
+## Project Definition <a name="Project Definition"></a>
+
 ## Project Overview
 
 Welcome to the Data Scientist Nanodegree's Dog Breed Classifier using Convolutional Neural Networks (CNN) capstone project! I designed a pipeline that was utilised in a web app to handle real-world, user-supplied photographs in this project. This web programme will identify an estimate of a dog's breed based on an image of the dog. If a human image is provided, the app will identify the dog breed that most closely resembles it.
