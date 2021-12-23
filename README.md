@@ -64,34 +64,17 @@ As a metric for model performance, we'll use test accuracy. We'll develop the we
 
 #### Data Description
 
--  Dog Images
--  Human Images
+Using TensorFlow backend.
 
-#### Human Detector Performance
-
-To detect human faces in images, I utilised OpenCV's implementation of Haar feature-based cascade classifiers.
-
-- A human face is spotted in 100.0 percent of the first 100 photos in human_files. 
-- A human face is spotted in 11.0 percent of the first 100 photos in dog_files.
-
-#### Dog Detector Performance
-
-To detect dogs in photos, I used a pre-trained ResNet-50 model.
-
-- A dog is spotted in 0.0 percent of the photos in human_files_short. 
-- A dog is spotted in 100.0 percent of the photos in dog_files_short.
-
-### Model Performance
-
-CNN has a test performance of  1.4354%  percent when starting from scratch.
-
-The test accuracy of the pre-trained VGG-16 CNN model is 39.3541% percent.
-
-The test accuracy of CNN to Classify Dog Breeds Using Resnet50(Using Transfer Learning) is 73.565%.
-
-The best performance of the three models is CNN to Classify Dog Breeds Using Resnet50. 
+- There are 133 total dog categories.
+- There are 8351 total dog images.
+- There are 6680 training dog images.
+- There are 835 validation dog images.
+- There are 836 test dog images.
 
 ## Data Visualization
+
+![Human Face](images/facedetection.PNG)
 
 ### Data Exploration
 
@@ -120,11 +103,38 @@ We can see from the two photographs above that dog breed pairs are frequently si
 ![png](images/Labrador_retriever_06449.jpg)
 
 
+# Results <a name="Results"></a>
+
+### Model Evaluation and Validation
+
+#### Human Detector Performance
+
+To detect human faces in images, I utilised OpenCV's implementation of Haar feature-based cascade classifiers.
+
+- A human face is spotted in 100.0 percent of the first 100 photos in human_files. 
+- A human face is spotted in 11.0 percent of the first 100 photos in dog_files.
+
+#### Dog Detector Performance
+
+To detect dogs in photos, I used a pre-trained ResNet-50 model.
+
+- A dog is spotted in 0.0 percent of the photos in human_files_short. 
+- A dog is spotted in 100.0 percent of the photos in dog_files_short.
+
+### Model Performance
+
+CNN has a test performance of  1.4354%  percent when starting from scratch.
+
+The test accuracy of the pre-trained VGG-16 CNN model is 39.3541% percent.
+
+The test accuracy of CNN to Classify Dog Breeds Using Resnet50(Using Transfer Learning) is 73.565%.
+
+The best performance of the three models is CNN to Classify Dog Breeds Using Resnet50. 
+
+
 # Conclusion <a name="conclusion"></a>
 
-## Reflection
-
-### Summary:
+### Reflection
 
 1. For dog detection, this program uses dog detector(), and for face detection, it uses face detector().
 2. A CNN model with a pre-trained Resnet50 model is used to detect dog breeds.
@@ -134,7 +144,6 @@ We can see from the two photographs above that dog breed pairs are frequently si
 6. When a dog breed is detected, the dog breed information is displayed.
 7. When a human face is detected, the human face is displayed as a dog breed.
 8. If you try to do anything else, you'll get an error message.
-
 
 
 ![png](images/1.png)
@@ -148,7 +157,6 @@ We can see from the two photographs above that dog breed pairs are frequently si
 ![png](images/5.png)
 
 ![png](images/6.png)
-
 
 
 ## Improvement
