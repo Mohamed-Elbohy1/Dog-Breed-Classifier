@@ -62,7 +62,7 @@ As a metric for model performance, we'll use test accuracy. We'll develop the we
 
 ### Data Exploration
 
-### Data Description
+#### Data Description
 
 -  Dog Images
 -  Human Images
