@@ -1,14 +1,29 @@
 # Dog-Breed-Classifier
 
+### PROJECT SPECIFICATION
+- Project Overview
+- Problem Statement
+- Metrics
+- Data Exploration
+- Data Visualization
+- Data Preprocessing
+- Implementation
+- Refinement
+- Model Evaluation and Validation
+- Justification
+- Reflection
+- Improvement
+
+
 
 
 ## Project Definition <a name="Project Definition"></a>
 
-## Project Overview
+### Project Overview
 
 Welcome to the Data Scientist Nanodegree's Dog Breed Classifier using Convolutional Neural Networks (CNN) capstone project! I designed a pipeline that was utilised in a web app to handle real-world, user-supplied photographs in this project. This web programme will identify an estimate of a dog's breed based on an image of the dog. If a human image is provided, the app will identify the dog breed that most closely resembles it.
 
-## Problem Statement
+### Problem Statement
 
 We need to create an algorithm for our web app that takes a file path to an image and decides whether it contains a human, a dog, or neither. Then,
 
@@ -18,7 +33,7 @@ Return the anticipated breed if a dog is detected in the image.
 
 3. Provide an output that shows an error if neither is acknowledged in the image.
 
-### Strategy for solving the problem
+#### Strategy for solving the problem
 
 1. Create human and dog detectors using the image as a guide.
 2. Make a CNN to categorise dog breeds (from Scratch)
@@ -30,7 +45,7 @@ Return the anticipated breed if a dog is detected in the image.
 8. Choose the best model to export.
 9. Put the model to the test.
 
-### Expected Solution
+#### Expected Solution
 
 A web application that can do the following will be the expected solution.
 
@@ -45,15 +60,12 @@ As a metric for model performance, we'll use test accuracy. We'll develop the we
 
 ## Analysis <a name="analysis"></a>
 
-## Data Exploration
+### Data Exploration
 
 ### Data Description
 
-#### Dog Images
-
-#### Human Images
-
-There are 13233 total human images.
+-  Dog Images
+-  Human Images
 
 #### Human Detector Performance
 
