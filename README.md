@@ -56,7 +56,30 @@ A web application that can do the following will be the expected solution.
 
 ### Metrics
 
-As a metric for model performance, we'll use test accuracy. We'll develop the web app and algorithm using a CNN model based on the greatest test accuracy.
+As a metric for model performance, we'll use test accuracy. We'll develop the algorithm using a CNN model based on the greatest test accuracy.
+
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_1 (Conv2D)            (None, 223, 223, 8)       104       
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 111, 111, 8)       0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 110, 110, 16)      528       
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 55, 55, 16)        0         
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 54, 54, 32)        2080      
+_________________________________________________________________
+max_pooling2d_4 (MaxPooling2 (None, 27, 27, 32)        0         
+_________________________________________________________________
+global_average_pooling2d_1 ( (None, 32)                0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 133)               4389      
+=================================================================
+Total params: 7,101
+Trainable params: 7,101
+Non-trainable params: 0
+
 
 ## Analysis <a name="analysis"></a>
 
