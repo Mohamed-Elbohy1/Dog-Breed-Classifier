@@ -1,5 +1,9 @@
 # Dog-Breed-Classifier
 
+you can check project blog post Here
+
+![Plog Post](https://mhassandatascience.blogspot.com/2021/12/dog-breed-classifier-project.html)
+
 ### PROJECT SPECIFICATION
 - Project Overview
 - Problem Statement
