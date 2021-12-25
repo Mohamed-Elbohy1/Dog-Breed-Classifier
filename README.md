@@ -2,7 +2,7 @@
 
 you can check project blog post Here
 
-[!Plog Post](https://mhassandatascience.blogspot.com/2021/12/dog-breed-classifier-project.html)
+[![Blog Post](images/Blogger-Logo.png)](https://mhassandatascience.blogspot.com/2021/05/sparkify-project-capstone-project-of.html)
 
 ### PROJECT SPECIFICATION
 - Project Overview
