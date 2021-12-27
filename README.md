@@ -2,7 +2,7 @@
 
 you can check project blog post Here
 
-[![Blog Post](images/Blogger-Logo.png)](https://mhassandatascience.blogspot.com/2021/12/dog-breed-classifier-project.html)
+[![Blog Post](images/Blogger-Logo.png)](https://dog-breed-classifier-elbohy.blogspot.com/2021/12/blog-post.html)
 
 ### PROJECT SPECIFICATION
 - Project Overview
