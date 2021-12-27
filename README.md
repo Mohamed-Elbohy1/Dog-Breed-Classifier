@@ -61,9 +61,10 @@ A web application that can do the following will be the expected solution.
 ### Metrics
 
 in this Project we Use "Accuracy" as  a metric for model performance because i think all classes are equally importamt, 
-  we'll use test accuracy. We'll develop the algorithm using a CNN model based on the greatest test accuracy.
 
 ![Accuracy](images/Accuracy.JPG)
+
+We'll develop the algorithm using a CNN model based on the greatest test accuracy.
 
 ## Analysis <a name="analysis"></a>
 
