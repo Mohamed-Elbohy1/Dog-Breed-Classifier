@@ -115,15 +115,6 @@ We can see from the two photographs above that dog breed pairs are frequently si
 
 ### Model Evaluation and Validation
 
-#### Human Detector Performance
-
-To detect human faces in images, I utilised OpenCV's implementation of Haar feature-based cascade classifiers.
-
-- A human face is spotted in 100.0 percent of the first 100 photos in human_files. 
-- A human face is spotted in 11.0 percent of the first 100 photos in dog_files.
-
-#### Dog Detector Performance
-
 ### Pre-process the Data
 When using TensorFlow as backend, Keras CNNs require a 4D array (which we'll also refer to as a 4D tensor) as input, with shape
 
@@ -139,6 +130,16 @@ The `paths_to_tensor` function takes a numpy array of string-valued image paths 
                                            (nb_samples,224,224,3).
                                            
 Here, `nb_samples` is the number of samples, or number of images, in the supplied array of image paths.  It is best to think of `nb_samples` as the number of 3D tensors (where each 3D tensor corresponds to a different image) in your dataset!
+
+
+#### Human Detector Performance
+
+To detect human faces in images, I utilised OpenCV's implementation of Haar feature-based cascade classifiers.
+
+- A human face is spotted in 100.0 percent of the first 100 photos in human_files. 
+- A human face is spotted in 11.0 percent of the first 100 photos in dog_files.
+
+#### Dog Detector Performance
 
 To detect dogs in photos, I used a pre-trained ResNet-50 model.
 
