@@ -132,6 +132,19 @@ The `paths_to_tensor` function takes a numpy array of string-valued image paths 
 Here, `nb_samples` is the number of samples, or number of images, in the supplied array of image paths.  It is best to think of `nb_samples` as the number of 3D tensors (where each 3D tensor corresponds to a different image) in your dataset!
 
 
+## implementation steps
+
+ the below steps is detailed explained in notebook : 
+
+- Obtain Bottleneck Features
+- Model Architecture
+- Compile the Model
+- Train the Model
+- Load the Model with the Best Validation Loss
+- Test the Model
+- Predict Dog Breed with the Model
+
+
 #### Human Detector Performance
 
 To detect human faces in images, I utilised OpenCV's implementation of Haar feature-based cascade classifiers.
